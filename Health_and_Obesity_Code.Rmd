@@ -1,0 +1,17 @@
+---
+title: "Exploring Macro-Level Obesity and Nutrition Data"
+author: "Kevin Baum"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+data <- read.csv("Nutrition_Obesity.csv")
+head(data)
+```
+
+
